@@ -1,0 +1,17 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  button {
+    width: 60%;
+    height: 35px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+  }  

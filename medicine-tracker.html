@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Medical App - Medicine Tracker</title>
+  <link rel="stylesheet" type="text/css" href="tracker.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Medical App</h1>
+    <h2>Medicine Tracker</h2>
+    <table>
+      <tr>
+        <th>Medicine</th>
+        <th>Dosage</th>
+        <th>Frequency</th>
+        <th>Time of Day</th>
+      </tr>
+      <tr>
+        <td><input type="text" id="medicine"></td>
+        <td><input type="text" id="dosage"></td>
+        <td><input type="text" id="frequency"></td>
+        <td><input type="text" id="time-of-day"></td>
+        <td><button onclick="addMedicine()">Add</button></td>
+      </tr>
+    </table>
+    <div id="medicine-list"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
